@@ -1,0 +1,24 @@
+//color names
+$black: black;
+$grey: darkslategrey;
+$white: white;
+$coral: coral;
+$turquoise: turquoise;
+$green: darkgreen;
+$cream: blanchedalmond;
+
+//color uses
+$background: $grey;
+$div1-back: $turquoise;
+$div2-back: $coral;
+$div3-back: $green;
+$text-light: $cream;
+$text-dark: $grey;
+
+//font blocks
+$font-stack: 'Gill Sans', 'Gill Sans MT', sans-serif;
+$font-main: 'Playfair Display', $font-stack;
+
+//breakpoints
+$tablet: 'only screen and (max-width: 991px)';
+$mobile: 'only screen and (max-width: 767px)';

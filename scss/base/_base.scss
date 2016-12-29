@@ -1,0 +1,109 @@
+/*Universal Selectors****************/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, section, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  background-color: $background;
+}
+
+h1,h2 {
+  font-family: $font-main;
+  font-size: 2em;
+}
+
+.mondrian {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  @media #{$tablet} {
+    flex-direction: column;
+  }
+  .mond1 {
+    //Your background image in url:
+    // background-image: url('');
+    // background-position: center;
+    // background-repeat: no-repeat;
+    background-color: $div1-back;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media #{$tablet} {
+      width: 100%;
+    }
+  }
+  .mond-block {
+    display: flex;
+    flex-direction: column;
+    @media #{$tablet} {
+      flex-direction: row;
+    }
+    @media #{$mobile} {
+      flex-direction: column;
+    }
+    .mond2 {
+      //Your background image in url:
+      // background-image: url('');
+      // background-position: center;
+      // background-repeat: no-repeat;
+      background-color: $div2-back;
+      color: $text-light;
+      width: 50vw;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media #{$mobile} {
+        width: 100%
+      }
+    }
+    .mond3 {
+      //Your background image in url:
+      // background-image: url('');
+      // background-position: center;
+      // background-repeat: no-repeat;
+      background-color: $div3-back;
+      width: 50vw;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media #{$mobile} {
+        width: 100%
+      }
+    }
+  }
+}
