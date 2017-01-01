@@ -1,15 +1,18 @@
-# _App Name_
+# _Flexbox Basic Gallery_
 
-#### _{A responsive site + short desc.}, {Dec 2, 2016}_
+#### _{A responsive template for all your design needs}, {Dec 31, 2016}_
 
 #### By _**Kyle Lange**_
 
-![screenshot](Screen Shot.png)
+### See it [live here.](http://codepen.io/kylelange/pen/PWYPzy)
 
+![screenshot](Screenshot1.png)
+![screenshot](Screenshot2.png)
+![screenshot](Screenshot3.png)
 
 ## Description
- This week's code review must include:
 
+This pen is a FLEXBOX ONLY template of a Mondrian content layout for web design.  It was created WITHOUT A GRID and can be used for all web needs.
 
 ## Setup/Installation Requirements
 
@@ -19,7 +22,19 @@
 
 3. run/check-out the program by dropping the index/html file from your folder into your web browser
 
-Install Sass/Bourbon/Neat:
+4. Install Sass/Bourbon/Neat:
+
+   in your console write:
+
+           _gem install sass_
+
+   If you get an error message try:
+
+           _sudo gem install sass_
+
+ 5. Watch your Sass project/ make changes with:
+
+         _sass --watch scss:css_
 
 ## Known Bugs
 
@@ -32,8 +47,7 @@ For questions or comments, please __email  [Kyle here.](baronsintrees@gmail.com)
 ## Technologies Used
 
 * HTML5
-* CSS3 with Sass, Bourbon and Neat
-* JavaScript with jQuery 3.1
+* CSS3 with Sass
 
 ### License
 
